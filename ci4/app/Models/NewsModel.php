@@ -8,6 +8,8 @@ class NewsModel extends Model
 {
     protected $table = 'lbarcega_balitanglna';
 
+    protected $allowedFields = ['title', 'slug', 'body'];
+
     public function getNews($slug = false)
     {
         if ($slug === false) {
