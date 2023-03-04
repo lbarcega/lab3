@@ -25,7 +25,6 @@
   <input type="radio" name="organ" <?php if (isset($organ) && $organ=="lung") echo "checked";?> value="lung">A lung
   <input type="radio" name="organ" <?php if (isset($organ) && $organ=="spleen") echo "checked";?> value="spleen">Spleen
   <input type="radio" name="organ" <?php if (isset($organ) && $organ=="other") echo "checked";?> value="other">Other  
-  <span class="error">* <?php echo $organErr;?></span>
   <br><br>
   <button class="yellow" style="width:100px;" type="submit" name="submit" value="Submit">Submit</button>
 </form>

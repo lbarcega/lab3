@@ -10,11 +10,14 @@ class GuestModel extends Model
 
     protected $allowedFields = ['name', 'email', 'website', 'note', 'organ', 'datetime'];
 
-    public function getNews()
-    {
 
+    public function getGuest($note_id = false)
+    {
+      if ($note_id === false) {
         return $this->findAll();
-        
+      }
+  
+      return $this->where(['note_id' => $note_id])->first();
     }
 }
 
