@@ -1,5 +1,5 @@
 <body class="profile">
-  <img class="image" src="images/icon.png" alt="the boy">
+  <img class="image" src="images/logo-bg.png" alt="the boy">
     <div class="container">
     
 			<div class="small-container">
@@ -11,10 +11,12 @@
 				<hr>
 				<p>
 				<?= esc($guest['note']) ?><br><br>
-                <span class="redacted">I have pledged to sacrifice my <?= esc($guest['organ']) ?> to Him."</span><br><br>
-				</p>
+                <center>
+                <span style="font-family: 'Times New Roman', Times, serif;background-color: #000000; color:#7c1e1e !important;">I have pledged to sacrifice my <?= esc($guest['organ']) ?> to Him."</span><br><br>
+                </center>
+                </p>
         <center>
-        <a href="<?php base_url() ?>/guest"><button type="button" class="yellow" >Go Back.</button></a>
+        <a href="index"><button type="button" class="yellow" >Go Back.</button></a>
         </center>
 				</div>
 			</div>
