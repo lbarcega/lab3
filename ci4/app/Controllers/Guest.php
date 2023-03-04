@@ -31,7 +31,7 @@ class Guest extends BaseController
             throw new PageNotFoundException('This person does not exist: ' . $note_id);
         }
 
-        $data['title'] = $data['guest']['title'];
+        $data['title'] = $data['guest'];
 
         return view('templates/header', $data)
             . view('guest/view')
