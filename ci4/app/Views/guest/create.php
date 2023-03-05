@@ -19,12 +19,12 @@
   <br>
   <textarea name="note" rows="5" cols="40" value="<?= set_value('name')?>"></textarea>
   <br><br>
-  Which organ would you hypothetically be fine without:
+  Which organ would you be willing to part with:
   <br>
   <input type="radio" name="organ" <?php if (isset($organ) && $organ=="skin") echo "checked";?> value="skin">Skin
   <input type="radio" name="organ" <?php if (isset($organ) && $organ=="lung") echo "checked";?> value="lung">A lung
   <input type="radio" name="organ" <?php if (isset($organ) && $organ=="spleen") echo "checked";?> value="spleen">Spleen
-  <input type="radio" name="organ" <?php if (isset($organ) && $organ=="other") echo "checked";?> value="other">Other  
+  <input type="radio" name="organ" <?php if (isset($organ) && $organ=="heart") echo "checked";?> value="heart">Other  
   <br><br>
-  <button class="yellow" style="width:100px;" type="submit" name="submit" value="Submit">Submit</button>
+  <button class="yellow" style="width:100px;" onclick="sacrifice()" type="submit" name="submit" value="Submit">Submit</button>
 </form>
