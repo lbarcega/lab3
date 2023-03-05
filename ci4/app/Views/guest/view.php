@@ -1,5 +1,5 @@
 <body class="profile">
-  <img class="bg-image" src="images/logo-bg.png" alt="the boy">
+  <img class="bg-image" src="../images/logo-bg.png" alt="the boy">
     <div class="container">
     
 			<div class="small-container">
@@ -17,7 +17,7 @@
                 </center>
                 </p>
         <center>
-        <a href=""><button type="button" class="yellow" >Go Back.</button></a>
+        <a href="../guest"><button type="button" class="yellow" >Go Back.</button></a>
         </center>
 				</div>
 			</div>

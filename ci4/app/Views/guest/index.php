@@ -2,7 +2,7 @@
 <img class="bg-image" src="images/logo-bg.png" alt="the boy">
     <div class="container">
         <div class="gallery">
-            <h1 id="header">Givers List</h1>
+            <h1 id="header">Donor List</h1>
             <hr>
             <div class="note-container">
 <?php if (! empty($guest) && is_array($guest)): ?>
@@ -26,8 +26,8 @@
 
 <?php else: ?>
 
-    <p><span class="black-text">No Givers Yet?</span></p><br>
-    <p><span class="black-text">I might be losing my touch.</span></p>
+    <p>No Donors Yet?</p><br>
+    <p><span class="redacted">He</span> will be displeased.</p>
 
 <?php endif ?>
             </div>
