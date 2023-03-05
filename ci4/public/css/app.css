@@ -6,12 +6,12 @@ body.warning {
 }
 body.unknown {
 	font-family: 'Times New Roman', Times, serif;
-	background-color: #181818;
+	background-color: #0a0a0a;
 	color:#ffefef;
 }
 body.no-escape {
 	font-family: 'Times New Roman', Times, serif;
-	background-color: #181818;
+	background-color: #0a0a0a;
 	color:#7c1e1e !important;
 }
 
@@ -34,7 +34,7 @@ p {
 
 .other {
 	font-family:'Times New Roman', Times, serif;
-	color:#181818;
+	color:#0a0a0a;
 }
 a {
 	color:#ffefef;
@@ -67,32 +67,32 @@ button {
 
 button:hover{
 	border-color: #7c1e1e;
-	background-color: #181818;
+	background-color: #0a0a0a;
 	color:#7c1e1e;
 	font-family: 'Times New Roman', Times, serif;
 }
 button.dark{
 	border-color: #7c1e1e;
-	background-color: #181818;
+	background-color: #0a0a0a;
 	color:#7c1e1e;
 	font-family: 'Times New Roman', Times, serif;
 }
 button.dark:hover{
 	border-color: #7c1e1e;
 	background-color: #7c1e1e;
-	color:#181818;
+	color:#0a0a0a;
 	font-family: 'Times New Roman', Times, serif;
 }
 button.light{
 	border-color: #ffefef;
-	background-color: #181818;
+	background-color: #0a0a0a;
 	color:#ffefef;
 	font-family: 'Times New Roman', Times, serif;
 }
 button.light:hover{
 	border-color: #ffefef;
 	background-color: #ffefef;
-	color:#181818;
+	color:#0a0a0a;
 	font-family: 'Times New Roman', Times, serif;
 }
 
@@ -104,13 +104,13 @@ button.yellow {
 }
 button.yellow:hover {
 	border-color:#362121;
-	background-color:#ffcf91;
+	background-color:#684b4b;
 	color:#362121;
 	font-family: 'Times New Roman', Times, serif;
 }
 span.redacted {
-    color: #181818;
-    background-color: #181818;
+    color: #0a0a0a;
+    background-color: #0a0a0a;
 	font-family: 'Times New Roman', Times, serif;
 }
 .image {
@@ -163,7 +163,7 @@ span.redacted {
 }
  
 .modal-content {
-	background-color: #181818;
+	background-color: #0a0a0a;
 	margin: 15% auto; 
 	padding: 20px;
 	border: 1px solid #7c1e1e;
@@ -281,6 +281,6 @@ textarea {
   }
 .black-text {
 	font-family: 'Times New Roman', Times, serif;
-	background-color: #181818;
+	background-color: #0a0a0a;
 	color:#7c1e1e !important;
 }
