@@ -52,7 +52,6 @@
         <center>
         <button type="button" class="yellow" onclick="show()" id="btn1">What hands?</button><br>
         </center>
-        <a href="references"><button class="yellow">References</button></a>
       </p>
     </div>
   </div>
