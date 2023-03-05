@@ -1,5 +1,5 @@
 <body class="profile">
-  <img class="bg-image" src="../images/logo-bg.png" alt="the boy">
+  <img class="bg-image" src="<?php echo base_url(); ?>/images/logo-bg.png" alt="the boy">
     <div class="container">
     
 			<div class="small-container">

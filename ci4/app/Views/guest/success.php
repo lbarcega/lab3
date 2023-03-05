@@ -1,7 +1,7 @@
-<body class="profile">
-    <img class="bg-image" src="images/logo-bg.png" alt="the boy">
+<body class="no-escape">
     <div class="modal" style="display:block !important;">
         <div class="modal-content">
-        <p><span class="redacted">He</span> is looking forward to the coming harvest. Enjoy the rest of your miserable life before then.</p>
+        <p>I look forward to the coming harvest. Enjoy the rest of your miserable life before then.</p>
+        <a href="<?php echo base_url(); ?>/guest"><button type="button" class="dark">See Donors.</button></a>
         </div>
     </div>
