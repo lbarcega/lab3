@@ -287,6 +287,10 @@ textarea {
 
 .navigation {
 	float: right;
-	color:#362121 !important;
+
 	margin-right: 20px;
+}
+
+a.navi {
+	color:#362121 !important;
 }

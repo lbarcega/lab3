@@ -2,10 +2,10 @@
     <img class="bg-image" src="images/logo-bg.png" alt="the boy">
     <div class="navigation">
       <nav>
-        <a href="<?php echo base_url();?>/profile">Home</a> |
-        <a href="<?php echo base_url();?>/guest">Donors</a> |
-        <a href="<?php echo base_url();?>/guest/create">Make a Donation</a> |
-        <a href="<?php echo base_url();?>/references">References</a>
+        <a href="<?php echo base_url();?>/profile" class="navi">Home</a> |
+        <a href="<?php echo base_url();?>/guest" class="navi">Donors</a> |
+        <a href="<?php echo base_url();?>/guest/create" class="navi">Make a Donation</a> |
+        <a href="<?php echo base_url();?>/references" class="navi">References</a>
       </nav>
     </div>
     <div class="small-container">
