@@ -284,3 +284,9 @@ textarea {
 	background-color: #0a0a0a;
 	color:#7c1e1e !important;
 }
+
+.navigation {
+	float: right;
+	color:#362121 !important;
+	margin-right: 20px;
+}
