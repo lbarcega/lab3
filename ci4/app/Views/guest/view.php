@@ -13,7 +13,7 @@
 				<?= esc($guest['note']) ?><br><br>
                 <center>
                 <span class="black-text">
-                "I have pledged to sacrifice my <?= esc($guest['organ']) ?> to Him."</span><br><br>
+                "I sacrifice my <?= esc($guest['organ']) ?> to Him."</span><br><br>
                 </center>
                 </p>
         <center>

@@ -1,15 +1,15 @@
-body.warning {
+.warning {
 	font-family: sans-serif;
 	background-color: #7c1e1e;
 	color:#ffefef;
 	overflow-x: hidden;
 }
-body.unknown {
+.unknown {
 	font-family: 'Times New Roman', Times, serif;
 	background-color: #0a0a0a;
 	color:#ffefef;
 }
-body.no-escape {
+.no-escape {
 	font-family: 'Times New Roman', Times, serif;
 	background-color: #0a0a0a;
 	color:#7c1e1e !important;
@@ -103,9 +103,9 @@ button.yellow {
 	font-family: 'Times New Roman', Times, serif;
 }
 button.yellow:hover {
-	border-color:#362121;
+	border-color:#ffcf91;
 	background-color:#684b4b;
-	color:#362121;
+	color:#ffefef;
 	font-family: 'Times New Roman', Times, serif;
 }
 span.redacted {
