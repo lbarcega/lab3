@@ -13,7 +13,7 @@ class Guest extends BaseController
 
         $data = [
             'guest'  => $model->getGuest(),
-            'title' => 'Final Words',
+            'title' => 'Donor List',
         ];
 
         return view('templates/header', $data)
@@ -45,7 +45,7 @@ class Guest extends BaseController
         // Checks whether the form is submitted.
         if (! $this->request->is('post')) {
             // The form is not submitted, so returns the form.
-            return view('templates/header', ['title' => 'Any Last Words?'])
+            return view('templates/header', ['title' => 'Donation'])
                 . view('guest/create')
                 . view('templates/footer');
         }
@@ -62,7 +62,7 @@ class Guest extends BaseController
 
         ])) {
             // The validation fails, so returns the form.
-            return view('templates/header', ['title' => 'Any Last Words?'])
+            return view('templates/header', ['title' => 'Donation'])
                 . view('guest/create')
                 . view('templates/footer');
         }
@@ -77,7 +77,7 @@ class Guest extends BaseController
             'organ'  => $post['organ'],
         ]);
 
-        return view('templates/header', ['title' => 'It is Done.'])
+        return view('templates/header', ['title' => 'Successful Ritual'])
             . view('guest/success')
             . view('templates/footer');
     }
