@@ -1,9 +1,10 @@
 <body class="profile">
 <div class="small-container">
+<img class="bg-image" src="<?php echo base_url(); ?>/images/logo-bg.png" alt="the boy">
   <?= session()->getFlashdata('error') ?>
   <?= validation_list_errors() ?>
 
-  <h1 id="header">Any Last Words?</h1>
+  <h1 id="header">Make a Donation.</h1>
   <hr>
   <div style="margin-left:40px;">
   <form method="post" action="create"> 
