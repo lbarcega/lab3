@@ -152,7 +152,7 @@ span.redacted {
 .modal {
 	display: none; 
 	position: fixed; 
-	z-index: 1; 
+	z-index: 6; 
 	left: 0;
 	top: 0;
 	width: 100%; 
@@ -289,7 +289,7 @@ textarea {
 	right: 0;
 	position: fixed;
 	z-index: 5;
-	color:#684b4b;
+	background-color:#684b4b;
 	padding-top: .2em;
 	padding-left: 1em;
 	padding-bottom: .2em;
