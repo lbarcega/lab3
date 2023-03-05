@@ -1,5 +1,4 @@
-  <body>
-    <div class="warning">
+  <body class = "warning">
     <div class="container">
       <img class="image" src="images/icon.png" alt="the boy">
       <h1>Deceptive Site Ahead</h1>
@@ -39,4 +38,3 @@
         </div>
       </div>
     </div>
-</div>

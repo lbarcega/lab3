@@ -1,15 +1,15 @@
-.warning {
+body.warning {
 	font-family: sans-serif;
 	background-color: #7c1e1e;
 	color:#ffefef;
 	overflow-x: hidden;
 }
-.unknown {
+body.unknown {
 	font-family: 'Times New Roman', Times, serif;
 	background-color: #0a0a0a;
 	color:#ffefef;
 }
-.no-escape {
+body.no-escape {
 	font-family: 'Times New Roman', Times, serif;
 	background-color: #0a0a0a;
 	color:#7c1e1e !important;
