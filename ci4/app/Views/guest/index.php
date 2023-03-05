@@ -1,5 +1,13 @@
 <body class="profile">
 <img class="bg-image" src="images/logo-bg.png" alt="the boy">
+<div class="navigation">
+      <nav style="color:#ffefef;">
+        <a href="<?php echo base_url();?>/profile">Home</a> |
+        <a href="<?php echo base_url();?>/guest">Donors</a> |
+        <a href="<?php echo base_url();?>/guest/create">Make a Donation</a> |
+        <a href="<?php echo base_url();?>/references">References</a>
+      </nav>
+    </div>
     <div class="container">
         <div class="gallery">
             <h1 id="header">Donor List</h1>
