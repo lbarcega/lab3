@@ -1,4 +1,4 @@
-﻿body.warning {
+body.warning {
 	font-family: sans-serif;
 	background-color: #7c1e1e;
 	color:#ffefef;
@@ -6,12 +6,12 @@
 }
 body.unknown {
 	font-family: 'Times New Roman', Times, serif;
-	background-color: #000000;
+	background-color: #181818;
 	color:#ffefef;
 }
 body.no-escape {
 	font-family: 'Times New Roman', Times, serif;
-	background-color: #000000;
+	background-color: #181818;
 	color:#7c1e1e !important;
 }
 
@@ -34,7 +34,7 @@ p {
 
 .other {
 	font-family:'Times New Roman', Times, serif;
-	color:#000000;
+	color:#181818;
 }
 a {
 	color:#ffefef;
@@ -67,32 +67,32 @@ button {
 
 button:hover{
 	border-color: #7c1e1e;
-	background-color: #000000;
+	background-color: #181818;
 	color:#7c1e1e;
 	font-family: 'Times New Roman', Times, serif;
 }
 button.dark{
 	border-color: #7c1e1e;
-	background-color: #000000;
+	background-color: #181818;
 	color:#7c1e1e;
 	font-family: 'Times New Roman', Times, serif;
 }
 button.dark:hover{
 	border-color: #7c1e1e;
 	background-color: #7c1e1e;
-	color:#000000;
+	color:#181818;
 	font-family: 'Times New Roman', Times, serif;
 }
 button.light{
 	border-color: #ffefef;
-	background-color: #000000;
+	background-color: #181818;
 	color:#ffefef;
 	font-family: 'Times New Roman', Times, serif;
 }
 button.light:hover{
 	border-color: #ffefef;
 	background-color: #ffefef;
-	color:#000000;
+	color:#181818;
 	font-family: 'Times New Roman', Times, serif;
 }
 
@@ -109,8 +109,8 @@ button.yellow:hover {
 	font-family: 'Times New Roman', Times, serif;
 }
 span.redacted {
-    color: #000000;
-    background-color: #000000;
+    color: #181818;
+    background-color: #181818;
 	font-family: 'Times New Roman', Times, serif;
 }
 .image {
@@ -163,7 +163,7 @@ span.redacted {
 }
  
 .modal-content {
-	background-color: #000000;
+	background-color: #181818;
 	margin: 15% auto; 
 	padding: 20px;
 	border: 1px solid #7c1e1e;
@@ -279,3 +279,8 @@ textarea {
 	flex-wrap: wrap;
 	align-content: flex-start;
   }
+.black-text {
+	font-family: 'Times New Roman', Times, serif;
+	background-color: #181818;
+	color:#7c1e1e !important;
+}
