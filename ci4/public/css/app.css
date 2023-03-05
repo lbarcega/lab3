@@ -286,11 +286,12 @@ textarea {
 }
 
 .navigation {
-	float: right;
-
-	margin-right: 20px;
-}
-
-a.navi {
-	color:#362121 !important;
+	right: 0;
+	position: fixed;
+	z-index: 5;
+	color:#684b4b;
+	padding-top: .2em;
+	padding-left: 1em;
+	padding-bottom: .2em;
+	padding-right: 1.2em;
 }
